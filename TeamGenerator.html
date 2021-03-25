@@ -30,9 +30,36 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="TeamGenerator.css" />
   </head>
   <body>
-    <h1>Strive School Team Generator</h1>
+    <div class="container text-center">
+      <h1 class="text-center mt-3 mb-4">
+        <span class="firstletter">S</span>trive School Team Generator
+      </h1>
+
+      <h4 class="mt-4 mb-4">
+        Number of teams:
+        <span><input type="integer" class="" value="" /></span>
+      </h4>
+      <button
+        id="generate-teams"
+        type="button"
+        onclick="createTeams()"
+        class="btn btn-outline-dark"
+      >
+        Generate teams
+      </button>
+      <h4 class="mt-4 mb-4">Team members:</h4>
+      <p>
+        <textarea name="team-members" id="team-members" cols="60" rows="15">
+        </textarea>
+      </p>
+      <button type="button" class="btn btn-outline-dark">
+        Assign team member
+      </button>
+    </div>
+    <script src="TeamGenerator.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

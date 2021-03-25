@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+.firstletter {
+  color: #00ff84;
+}
+.container {
+  border: 2px solid rgb(160, 160, 160);
+  padding: 20px;
+  background-color: rgb(232, 232, 232);
+  color: black;
+  margin-top: 40px;
+  border-radius: 15px;
+}
+h1 {
+  font-size: 60px;
+}
+.btn {
+  height: 60px;
+  width: 300px;
+  font-size: 20px;
+  color: #00ff84;
+  border-color: black;
+  background-color: black;
+}
